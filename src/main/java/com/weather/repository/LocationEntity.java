@@ -1,4 +1,4 @@
-package com.hackerrank.weather.repository;
+package com.weather.repository;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,9 +1,9 @@
-package com.hackerrank.weather.controller;
+package com.weather.controller;
 
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.model.WeatherInfo;
-import com.hackerrank.weather.model.WeatherResponses;
-import com.hackerrank.weather.service.WeatherService;
+import com.weather.model.Weather;
+import com.weather.model.WeatherInfo;
+import com.weather.model.WeatherResponses;
+import com.weather.service.WeatherService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.ResponseEntity;

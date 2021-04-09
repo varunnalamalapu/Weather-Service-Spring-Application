@@ -1,7 +1,7 @@
-package com.hackerrank.weather;
+package com.weather;
 
-import com.hackerrank.weather.exception.BadRequestException;
-import com.hackerrank.weather.exception.WeatherNotFoundException;
+import com.weather.exception.BadRequestException;
+import com.weather.exception.WeatherNotFoundException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

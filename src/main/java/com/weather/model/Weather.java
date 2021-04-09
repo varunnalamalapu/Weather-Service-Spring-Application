@@ -1,7 +1,7 @@
-package com.hackerrank.weather.model;
+package com.weather.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import com.hackerrank.weather.util.CustomDateDeserializer;
+import com.weather.util.CustomDateDeserializer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

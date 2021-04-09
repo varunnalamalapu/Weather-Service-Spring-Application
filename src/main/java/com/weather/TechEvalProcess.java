@@ -1,4 +1,4 @@
-package com.hackerrank.weather;
+package com.weather;
 
 import org.apache.commons.lang3.StringUtils;
 

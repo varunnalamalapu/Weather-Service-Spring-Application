@@ -1,15 +1,15 @@
-package com.hackerrank.weather.service;
+package com.weather.service;
 
-import com.hackerrank.weather.exception.BadRequestException;
-import com.hackerrank.weather.exception.WeatherNotFoundException;
-import com.hackerrank.weather.model.Temperature;
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.model.WeatherInfo;
-import com.hackerrank.weather.model.WeatherResponses;
-import com.hackerrank.weather.repository.LocationEntity;
-import com.hackerrank.weather.repository.LocationRepository;
-import com.hackerrank.weather.repository.WeatherEntity;
-import com.hackerrank.weather.repository.WeatherRepository;
+import com.weather.exception.BadRequestException;
+import com.weather.exception.WeatherNotFoundException;
+import com.weather.model.Temperature;
+import com.weather.model.Weather;
+import com.weather.model.WeatherInfo;
+import com.weather.model.WeatherResponses;
+import com.weather.repository.LocationEntity;
+import com.weather.repository.LocationRepository;
+import com.weather.repository.WeatherEntity;
+import com.weather.repository.WeatherRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

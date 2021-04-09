@@ -1,4 +1,4 @@
-package com.hackerrank.weather.util;
+package com.weather.util;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;

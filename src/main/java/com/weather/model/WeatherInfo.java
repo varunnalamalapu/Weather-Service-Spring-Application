@@ -1,4 +1,4 @@
-package com.hackerrank.weather.model;
+package com.weather.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

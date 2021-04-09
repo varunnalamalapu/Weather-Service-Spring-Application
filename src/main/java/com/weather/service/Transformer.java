@@ -1,11 +1,11 @@
-package com.hackerrank.weather.service;
+package com.weather.service;
 
-import com.hackerrank.weather.model.Location;
-import com.hackerrank.weather.model.Weather;
-import com.hackerrank.weather.model.WeatherResponses;
-import com.hackerrank.weather.repository.LocationEntity;
-import com.hackerrank.weather.repository.WeatherEntity;
-import com.hackerrank.weather.repository.WeatherRepository;
+import com.weather.model.Location;
+import com.weather.model.Weather;
+import com.weather.model.WeatherResponses;
+import com.weather.repository.LocationEntity;
+import com.weather.repository.WeatherEntity;
+import com.weather.repository.WeatherRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

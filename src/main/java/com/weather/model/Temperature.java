@@ -1,4 +1,4 @@
-package com.hackerrank.weather.model;
+package com.weather.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,11 +9,9 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class Location {
+public class Temperature {
 
-    private Float lat;
-    private Float lon;
-    private String city;
-    private String state;
+    private Float minTemp;
+    private Float maxTemp;
 
 }
