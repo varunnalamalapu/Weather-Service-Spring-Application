@@ -1,4 +1,0 @@
-http00.json: Sample Test
-http01.json: Additional Test 1
-http02.json: Additional Test 2
-http03.json: Additional Test 3
